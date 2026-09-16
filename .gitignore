@@ -1,0 +1,21 @@
+# Environment files (contain secrets)
+.env*
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Docker volumes (local development)
+postgres_data/
+
+# Logs
+*.log

@@ -1,0 +1,166 @@
+/* Employee Management System - Custom Styles */
+
+/* ===== Global ===== */
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Main Content ===== */
+.main-content {
+  padding: 2rem 0;
+}
+
+/* ===== Cards ===== */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 12px 12px 0 0 !important;
+  padding: 1rem 1.5rem;
+}
+
+/* ===== Table ===== */
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  border-top: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  color: #6c757d;
+  padding: 1rem;
+}
+
+.table tbody td {
+  vertical-align: middle;
+  padding: 0.85rem 1rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f0f4ff;
+}
+
+/* ===== Buttons ===== */
+.btn-action {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+}
+
+.btn-add {
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+}
+
+/* ===== Modal ===== */
+.modal-content {
+  border-radius: 12px;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: 1px solid #e9ecef;
+  padding: 1.25rem 1.5rem;
+}
+
+.modal-footer {
+  border-top: 1px solid #e9ecef;
+  padding: 1rem 1.5rem;
+}
+
+/* ===== Forms ===== */
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 0.4rem;
+}
+
+/* ===== Alerts ===== */
+.alert {
+  border-radius: 8px;
+  border: none;
+}
+
+/* ===== Salary Badge ===== */
+.salary-badge {
+  font-weight: 600;
+  color: #198754;
+}
+
+/* ===== Empty State ===== */
+.empty-state {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #6c757d;
+}
+
+.empty-state i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* ===== Loading Spinner ===== */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #e9ecef;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 0.85rem;
+  }
+
+  .btn-action {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.75rem;
+  }
+
+  .card-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
